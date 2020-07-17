@@ -1,0 +1,107 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+.star{
+	color: yellow;
+}
+.prize{
+	color: green;
+}
+body{
+	background-color: #F1F3F6; 
+}
+
+
+#lg1{
+
+font-family: sans-serif;
+padding: 6px 30px;
+background-color: white;
+	
+color: #047bd5;
+	text-decoration: none;
+}
+#lg1:hover{
+	
+}
+#lg1:visited{
+	color:  #047bd5;
+}
+#lg1:active{
+color: yellow;
+}
+#lg1:unvisited{
+	color:   #047bd5;
+}
+#more{
+	font-family: sans-serif;
+	color: white;
+}
+#cart{
+	font-family: sans-serif;
+	color: white;
+}
+#naviga{
+
+	height: 40px;
+}
+.silder{
+	width: 69px;
+	height: 46%;
+}
+.img_container{
+	width 280px;
+	height: 46%;
+	position: relative;
+transition: left 2s;
+-webkit-transition: left 2s;
+-moz-transition: left 2s;
+-o-transition: left 2s;
+}
+.img{
+	float: left;
+margin: 0px;
+padding: 0px;
+}
+.btcon{
+	top: -280px;
+	position: relative;
+}
+.slbtn{
+	display: inline-block;
+	height: 10px;
+	width:  10px;
+	border-radius: 5px;
+	background-color: white;
+}
+#im1: target ~ .img_container{
+	left: 0px;
+
+}
+#im2:target ~ .img_container{
+	left: -69px;
+	
+}
+#im1: target ~ .img_container{
+	left: 0px;
+	
+}
+footer{
+	background-color: black;
+	color: white;
+}
+.ft{
+font-family: serif;
+
+}
+#at{
+	font-family: serif;
+	display: flex;
+	justify-content: space-around;
+
+}
+#customers{
+	width: 100%;
+}
